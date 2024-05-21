@@ -1,0 +1,28 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#remainingTriesAndInput {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+#guess1, #guess2, #guess3, #guess4, #guess5, #guess6 {
+    display: flex;
+    gap: 10px;
+}
+
+#guess1 > div, #guess2 > div, #guess3 > div, #guess4 > div, #guess5 > div, #guess6 > div {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
